@@ -104,12 +104,14 @@ The model takes the following 9 inputs:
 ```bash
 git clone https://github.com/ayoub22222222/Project_implementatoin_with_lifecycle_of_MLproject.git
 cd Project_implementatoin_with_lifecycle_of_MLproject
+```
 
 **Install dependencies**
 ```bash
 python application.py
+```
 
 **Run the Flask app**
 ```bash 
 python application.py
-
+```
