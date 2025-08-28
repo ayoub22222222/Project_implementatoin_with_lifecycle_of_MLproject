@@ -98,8 +98,18 @@ The model takes the following 9 inputs:
 
 ## ▶️ How to Run the Project
 
-### 1. Clone the Repository
+# How to Use
+
+1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/fwi-prediction.git
-cd fwi-prediction
+git clone https://github.com/ayoub22222222/Project_implementatoin_with_lifecycle_of_MLproject.git
+cd Project_implementatoin_with_lifecycle_of_MLproject
+
+**Install dependencies**
+```bash
+python application.py
+
+**Run the Flask app**
+```bash 
+python application.py
 
