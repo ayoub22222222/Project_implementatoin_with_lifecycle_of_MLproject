@@ -8,14 +8,17 @@ It covers the **full machine learning workflow**: data cleaning, exploratory dat
 ## 📌 Project Structure
 
 project/
+
 │
 ├── data/ # Raw and cleaned datasets
 ├── notebooks/ # Jupyter notebooks for EDA and experiments
 ├── models/ # Saved ML models (pickle files)
 ├── templates/ # HTML templates (welcome, prediction form)
+
 │ ├── welcome.html
 │ ├── predict.html
 │ └── home.html
+
 ├── app.py # Flask app (API + routes)
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
