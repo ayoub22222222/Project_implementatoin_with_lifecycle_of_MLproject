@@ -1,7 +1,7 @@
 # 🔥 Fire Weather Index (FWI) Prediction
 
 This project predicts the **Fire Weather Index (FWI)** using meteorological and environmental features.  
-It covers the **full machine learning workflow**: data cleaning, exploratory data analysis (EDA), model training, hyperparameter tuning, model serialization (pickling), and deployment through a **Flask API with HTML templates** for user interaction.
+It covers the **full machine learning workflow**: data cleaning, exploratory data analysis (EDA), model training, hyperparameter tuning, model serialization (pickling), anddeployment through a **Flask API with HTML templates** for user interaction.
 
 ---
 
@@ -14,10 +14,9 @@ project/
 ├── notebooks/ # Jupyter notebooks for EDA and experiments
 ├── models/ # Saved ML models (pickle files)
 ├── templates/ # HTML templates (welcome, prediction form)
-│ ├── welcome.html
-│ ├── predict.html
+│ ├── index.html
 │ └── home.html
-├── app.py # Flask app (API + routes)
+├── application.py # Flask app (API + routes)
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
 ```
@@ -47,7 +46,6 @@ project/
 - Tested different ML algorithms:
   - Linear Regression
   - Ridge Regression
-  - Random Forest
 - Used **cross-validation** and **hyperparameter tuning** to select the best model.
 
 ### 5. Model Saving (Pickling)
@@ -55,19 +53,15 @@ project/
 - Scaler (`standard_scaler.pkl`) also saved to ensure consistent preprocessing during predictions.
 
 ### 6. API Development (Flask)
-- Created a **Flask app** (`app.py`) with:
-  - `/` → Welcome page
-  - `/predict` → Prediction form
-  - `/predictdata` → Handles form submission, runs model, and displays result
+- Created a **Flask app** (`application.py`) with:
+  - `index.html` → Welcome page
 - Integrated HTML templates:
-  - `welcome.html` → Minimalist landing page
-  - `predict.html` → Input form with 9 features
   - `home.html` → Displays prediction results
 
 ### 7. Deployment
 - App can be deployed on:
   - **Localhost** (Flask server)
-  - **Cloud/Hosting** platforms (Heroku, Render, Railway, or AWS EC2)
+  - **Cloud/Hosting** platforms (Heroku, Render, Railway, or AWS EC2) 
 
 ---
 
